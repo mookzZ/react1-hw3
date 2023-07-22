@@ -24,9 +24,9 @@ function TodoList() {
               type="text"
               value={newTask}
               onChange={handleChange}
-              placeholder="Введите новую задачу..."
+              placeholder="Add new task..."
           />
-          <button onClick={addTask}>Добавить</button>
+          <button onClick={addTask}>Add Task</button>
         </div>
         <ul>
           {tasks.map((task, index) => (

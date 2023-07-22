@@ -3,6 +3,11 @@
   margin-top: 40px;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+
 .task-container {
   display: flex;
   align-items: center;
